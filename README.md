@@ -19,7 +19,7 @@ Alternatively, download the latest packaged extension from the repository's **Re
 2. Enter `chrome://extensions` in the address bar.
 3. Enable **Developer mode** in the top-right corner.
 4. Click **Load unpacked**.
-5. Select the extracted folder containing `manifest.json`.
+5. Select the extracted folder.
 
 **For Microsoft Edge:**
 
@@ -27,7 +27,7 @@ Alternatively, download the latest packaged extension from the repository's **Re
 2. Enter `edge://extensions` in the address bar.
 3. Enable **Developer mode**.
 4. Click **Load unpacked**.
-5. Select the extracted folder containing `manifest.json`.
+5. Select the extracted folder.
 
 ### Step 3 — Pin the Extension
 
