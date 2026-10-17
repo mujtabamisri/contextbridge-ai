@@ -1,31 +1,50 @@
-# ContextBridge AI
+## Installation — Chrome & Microsoft Edge
 
-**Hit your AI usage limit? Continue your conversation on another AI without starting over.**
+ContextBridge AI is currently available for free through GitHub. You can install it manually without paying for anything.
 
-ContextBridge AI is a free Chrome and Microsoft Edge extension that helps you continue conversations across different AI assistants when you reach usage limits, run out of available messages, or simply want to switch platforms.
+### Step 1 — Download ContextBridge AI
 
-### The Problem
+1. Open the [ContextBridge AI GitHub repository](https://github.com/mujtabamisri/contextbridge-ai).
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the downloaded ZIP to a folder on your computer.
 
-Imagine you're working on a coding project with ChatGPT. You've spent an hour explaining your requirements, debugging errors, and making progress.
+Alternatively, download the latest packaged extension from the repository's **Releases** page, if available.
 
-Suddenly, you hit your usage limit.
+### Step 2 — Install the Extension
 
-Now you have to wait for your limit to reset, upgrade your plan, or switch to another AI assistant. But switching usually means manually copying your conversation, explaining everything again, and rebuilding the context.
+**For Google Chrome:**
 
-**That's the problem ContextBridge AI solves.**
+1. Open Google Chrome.
+2. Enter `chrome://extensions` in the address bar.
+3. Enable **Developer mode** in the top-right corner.
+4. Click **Load unpacked**.
+5. Select the extracted folder containing `manifest.json`.
 
-### The Solution
+**For Microsoft Edge:**
 
-With ContextBridge AI, you can transfer your available conversation context to another AI assistant in just a few clicks.
+1. Open Microsoft Edge.
+2. Enter `edge://extensions` in the address bar.
+3. Enable **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the extracted folder containing `manifest.json`.
 
-1. **Capture** — Open ContextBridge AI and capture the conversation from your current AI chatbot.
-2. **Choose** — Select another AI assistant to continue with.
-3. **Transfer** — ContextBridge AI copies the conversation, opens the destination, and attempts to paste the context automatically.
-4. **Continue** — Review the transferred prompt, send it, and pick up where you left off.
+### Step 3 — Pin the Extension
 
-No manually copying dozens of messages. No explaining your entire project again.
+1. Click the Extensions (puzzle-piece) icon in your browser toolbar.
+2. Find **ContextBridge AI**.
+3. Pin it to your toolbar for easy access.
+4. Refresh any already-open AI chatbot tabs.
 
-### Supported AI Platforms
+Your extension is now ready!
+
+---
+
+## How to Use ContextBridge AI
+
+### Step 1 — Open Your AI Conversation
+
+Open an existing conversation on any supported platform:
 
 - ChatGPT
 - Claude
@@ -34,24 +53,73 @@ No manually copying dozens of messages. No explaining your entire project again.
 - Perplexity
 - DeepSeek
 
-### Why Use ContextBridge AI?
+For example, suppose you've been working on a coding project in ChatGPT and reached your usage limit.
 
-- **Hit an AI usage limit?** Switch to another available AI assistant without manually rebuilding your conversation.
-- **Working on a long coding project?** Carry over your available debugging history, requirements, and previous solutions.
-- **Want a second opinion?** Move your conversation to another AI for a different perspective.
-- **Switching between free AI plans?** Continue working across platforms when one reaches its usage limit.
-- **Comparing AI assistants?** Give another chatbot the same conversation context without starting from scratch.
+### Step 2 — Capture Your Conversation
 
-**One conversation. Multiple AI assistants. Keep your progress.**
+1. Click the **ContextBridge AI** extension icon.
+2. Click **Capture conversation**.
+3. ContextBridge AI will extract the available conversation messages.
+4. Review the captured text in the preview.
 
-*Note: ContextBridge AI transfers available conversation text, not the AI's internal memory or hidden reasoning. You should review the captured content before sending it to another provider.*
+**Tip:** If older messages are missing, scroll up in the conversation to load them, then capture again.
 
-## Privacy Policy
+### Step 3 — Choose Another AI
 
-ContextBridge AI does not operate its own conversation
-collection or analytics service.
+Select the AI assistant where you want to continue your conversation.
 
-Conversation text is captured on user request and can be
-copied or inserted into another AI assistant.
+For example:
 
-Read our [Privacy Policy](PRIVACY.md) for complete details.
+**ChatGPT → Claude**
+
+You can also transfer between other supported platforms.
+
+### Step 4 — Transfer Your Conversation
+
+1. Click **Copy & open destination** (or the transfer button displayed in your installed version).
+2. ContextBridge AI copies your conversation context to the clipboard.
+3. It opens your selected AI assistant in a new tab.
+4. It attempts to paste the continuation prompt into the destination chat input automatically.
+
+If automatic pasting doesn't work, click the destination message box and press `Ctrl + V` (`Cmd + V` on macOS).
+
+### Step 5 — Continue Where You Left Off
+
+1. Review the transferred conversation text.
+2. Remove any sensitive information you don't want to share.
+3. Click **Send** manually.
+
+The destination AI can now use the transferred conversation as context to help you continue your work.
+
+**Important:** ContextBridge AI does not automatically send messages.
+
+---
+
+## Limitations
+
+- ContextBridge AI captures conversation text available in the loaded webpage, not necessarily the entire chat history.
+- Older messages may need to be loaded by scrolling.
+- Images, attachments, hidden reasoning, and internal AI memory are not transferred.
+- Automatic insertion may stop working if an AI provider changes its website.
+- Long conversations may exceed the destination AI's context limits.
+- If automatic capture fails, use **Capture selected text instead** or paste text manually into the preview.
+
+## Privacy & Security
+
+ContextBridge AI does not operate its own conversation analytics or collection service.
+
+The extension captures conversation text when requested and can copy it to the clipboard or insert it into another AI assistant.
+
+Always review your conversation before transferring it. When you submit the text, the destination AI provider processes it under its own privacy policy.
+
+Read the full [Privacy Policy](PRIVACY.md) for details.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Copyright © 2026 Mujtaba Misri.
+
+## Disclaimer
+
+ContextBridge AI is an independent open-source project and is not affiliated with or endorsed by OpenAI, Anthropic, Google, xAI, Perplexity, or DeepSeek.
