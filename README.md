@@ -45,3 +45,13 @@ No manually copying dozens of messages. No explaining your entire project again.
 **One conversation. Multiple AI assistants. Keep your progress.**
 
 *Note: ContextBridge AI transfers available conversation text, not the AI's internal memory or hidden reasoning. You should review the captured content before sending it to another provider.*
+
+## Privacy Policy
+
+ContextBridge AI does not operate its own conversation
+collection or analytics service.
+
+Conversation text is captured on user request and can be
+copied or inserted into another AI assistant.
+
+Read our [Privacy Policy](PRIVACY.md) for complete details.
