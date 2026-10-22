@@ -1,3 +1,9 @@
+# ContextBridge AI
+
+## Promo video
+
+[Watch or download the ContextBridge AI promo video](assets/contextbridge-ai-promo.mp4)
+
 ## Installation — Chrome & Microsoft Edge
 
 ContextBridge AI is currently available for free through GitHub. You can install it manually without paying for anything.
