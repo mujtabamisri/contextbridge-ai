@@ -2,7 +2,7 @@
 # ContextBridge AI
 
 <p align="center">
-  <img src="assets/contextbridge-demo.gif" alt="ContextBridge AI - Transfer conversations between AI assistants" width="850">
+  <img src="assets/contextbridge-demo.gifv=2" alt="ContextBridge AI - Transfer conversations between AI assistants" width="850">
 </p>
 
 <p align="center">
