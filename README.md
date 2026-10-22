@@ -1,8 +1,17 @@
+
 # ContextBridge AI
 
-## Installation — Chrome & Microsoft Edge
+<p align="center">
+  <img src="assets/contextbridge-demo.gif" alt="ContextBridge AI - Transfer conversations between AI assistants" width="850">
+</p>
 
-ContextBridge AI is currently available for free through GitHub. You can install it manually without paying for anything.
+<p align="center">
+  <strong>Continue your AI conversations across different platforms without losing context.</strong>
+</p>
+
+---
+
+## Installation — Chrome & Microsoft Edge
 
 ### Step 1 — Download ContextBridge AI
 
